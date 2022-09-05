@@ -36,13 +36,7 @@ date: 2021-08-10 11:32:53 +0900
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-
-<!-- outline-start -->
-
-<!-- {{ website_info_text_first }} -->
+{%- comment -%}
 
 # Emmet(에밋) 문법
 
@@ -381,6 +375,14 @@ Facilis nemo architecto expedita exercitationem, a natus aliquam cumque corporis
   </tfoot>
 </table>
 ```
+
+{%- endcomment -%}
+
+{%- include util/auto-content-generator.liquid -%}
+
+<!-- outline-start -->
+
+{{ website_info_text_first }}
 
 <!-- outline-end -->
 
