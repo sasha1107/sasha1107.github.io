@@ -36,7 +36,7 @@ date: 2021-08-10 11:32:53 +0900
 #published: false
 ---
 
-{%- comment -%}
+{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 # Emmet(에밋) 문법
 
@@ -181,22 +181,21 @@ Facilis nemo architecto expedita exercitationem, a natus aliquam cumque corporis
 
 ### img
 
-{% highlight html %}
+```html
 <img src="|" alt="|" />
-{% endhighlight %}
+```
 
 ### img:z
 
-{% highlight html %}
+```html
 <img src="|" alt="|" sizes="|" srcset="|" />
-{% endhighlight %}
+```
 
 ### p[a="value1" b="value2" c=1 d=value3]
 
-{% highlight html %}
-
+```html
 <p a="value1" b="value2" c="1" d="value3">|</p>
-{% endhighlight %}
+```
 
 ### a[href="https://www.naver.com"]
 
@@ -375,15 +374,3 @@ Facilis nemo architecto expedita exercitationem, a natus aliquam cumque corporis
   </tfoot>
 </table>
 ```
-
-{%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-
-<!-- outline-start -->
-
-{{ website_info_text_first }}
-
-<!-- outline-end -->
-
-{{ website_info_text_second }}
