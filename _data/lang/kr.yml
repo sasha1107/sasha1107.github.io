@@ -179,36 +179,36 @@ cookie_consent:
       귀하의 승인으로 활성화됩니다.
     privacy_msg: $프라이버시링크 를 확인하세요.
     buttons:
-      accept: &accept_button Allow all
-      settings: Customize
-      deny: &deny_button Deny
+      accept: &accept_button 모두 수락
+      settings: 사용자 설정
+      deny: &deny_button 거부
   panel_settings:
     title: *cookie_settings
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy.
-    privacy_msg: Check $privacy_link.
+      이 웹사이트는 사이트 기능을 최적화하기 위해 쿠키를 사용합니다.
+      귀하의 승인으로 활성화됩니다. 쿠키 정책은 아래의 각 항목을 클릭하세요.
+    privacy_msg: $프라이버시링크 를 확인하세요.
     buttons:
       accept: *accept_button
-      save: Allow selection
+      save: 선택 허용
       deny: *deny_button
-    always_active: Always active
+    always_active: 항상 활성화
     consent_types:
       necessary:
-        title: Strictly necessary cookies
+        title: 필수적 쿠키
         info: >
-          These cookies are essential for the website function and cannot be disable.
-          They are usually set when site function like color scheme etc. is changed.
-          These cookies do not store any personally identifiable information.
+          이 쿠키는 웹사이트 기능에 필수적이며 비활성화할 수 없습니다.
+          일반적으로 색 구성표 등의 사이트 기능이 변경될 때 설정됩니다.
+          이 쿠키는 개인 식별 정보를 저장하지 않습니다.
           $gtag_info
       analytics:
-        title: Performance cookies #Performance and analytics cookies
+        title: 성능 쿠키 #Performance and analytics cookies
         info: $gtag_info
       preferences:
-        title: Functionality cookies
+        title: 기능 쿠키
         info: $gtag_info
       advertising:
-        title: Targeting and advertising cookies
+        title: 타게팅/광고 쿠키
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
