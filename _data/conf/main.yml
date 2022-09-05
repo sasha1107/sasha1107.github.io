@@ -209,7 +209,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
+side_nav_profile_img_path: /assets/img/default/1x1px.png
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"
@@ -312,7 +312,7 @@ cookie_consent:
     # https://developers.google.com/analytics/devguides/collection/gtagjs
     anonymize_ip: true
     ads_data_redaction: true
-    cookie_flags: 'SameSite=None;Secure'
+    cookie_flags: "SameSite=None;Secure"
   groups:
     # google gtag default settings with categories
     # settings below categories will be set with gtag("consent", "default", ...)
