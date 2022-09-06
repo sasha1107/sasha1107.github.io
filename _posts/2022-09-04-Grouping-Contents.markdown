@@ -7,7 +7,7 @@ title: Grouping Contents
 # if not specified, .name will be used from _data/owner/[language].yml
 #author: ""
 # multiple category is not supported
-category: HTML & CSS
+category: HTML&CSS
 # multiple tag entries are possible
 tags: [HTML]
 # thumbnail image for post
