@@ -33,7 +33,7 @@ date: 2022-09-08 17:12:30 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+#published: true
 ---
 
 # 1. CSS

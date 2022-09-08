@@ -33,7 +33,7 @@ date: 2022-09-04 12:35:04 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+#published: true
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}

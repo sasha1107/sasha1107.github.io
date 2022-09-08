@@ -33,10 +33,8 @@ date: 2022-09-06 16:49:00 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+#published: true
 ---
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 ## 텍스트 레벨 요소 특징
 

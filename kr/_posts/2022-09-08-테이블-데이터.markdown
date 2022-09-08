@@ -33,7 +33,7 @@ date: 2022-09-08 16:55:03 +0900
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-#published: false
+#published: true
 ---
 
 ## Emmet 문법으로 테이블 만들기
