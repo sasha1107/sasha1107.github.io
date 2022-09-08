@@ -1,6 +1,6 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_Mr_Green_Jekyll_Theme
+lng_pair: id_CSS1
 title: CSS란?, CSS 적용하기
 
 # post specific
