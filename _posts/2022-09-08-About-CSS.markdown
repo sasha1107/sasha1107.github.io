@@ -1,0 +1,126 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_What_is_this
+title: About CSS
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Soohyun Jung
+# multiple category is not supported
+category: HTML&CSS
+# multiple tag entries are possible
+tags: [CSS]
+# thumbnail image for post
+img: ":post_pic3.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2022-09-08 17:12:30 +0900
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-01-01 10:04:30 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# if you enabled image_viewer_posts you don't need to enable this. This is only if image_viewer_posts = false
+#image_viewer_on: true
+# if you enabled image_lazy_loader_posts you don't need to enable this. This is only if image_lazy_loader_posts = false
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+# 1. CSS
+
+## CSS란 무엇일까?
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a08f46b-3b71-42cf-a39a-fa24318430fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080358Z&X-Amz-Expires=86400&X-Amz-Signature=33a88b0ce2d67350053b7de787bc43c3eb865df48e070385337d4ee7ca87aee8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="300px"></img>
+
+Cascading Style Sheet
+
+- Cascade 폭포가 되어 떨어지다.
+- 우선순위를 가지고 적용 → 폭포처럼 위에서 아래로 떨어지는 모양
+- 스타일 명세서
+
+## CSS3, CSS4는 없다.
+
+- Module Level로 표현하기로 변경
+- CSS의 명칭은 CSS3, CSS4 로 부르기 보단 ‘**CSS**’로 통칭!
+
+## CSS의 기본 구조
+
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09fb4043-3afd-4d49-a2a7-50968428affd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080451Z&X-Amz-Expires=86400&X-Amz-Signature=8812d531949de343d129dc10f13c961aaed74af6c6bd0dd3b283c0fb3e4339fe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400px" alt="CSS의 기본 구조 - 선택자, 프로퍼티, 값, 선언으로 이루어져있다.">
+
+<hr><br>
+
+# 2. CSS 적용하기
+
+## 2.1 인라인 방식
+
+- 사용 자제
+
+```html
+<body style="font-size: 14px;"></body>
+```
+
+<br>
+
+## 2.2 내부 스타일 시트
+
+- 문서 상단 `<head>` - `<style>` 태그 내
+
+```html
+<head>
+  <style>
+    body {
+      font-size: 14px;
+    }
+  </style>
+</head>
+```
+
+<br>
+
+## 2.3 외부 스타일 시트
+
+- 장점: 마크업과 CSS를 분리할 수 있다.
+
+```html
+<head>
+  <link rel="stylesheet" href="css/foo.css" />
+</head>
+```
+
+<br>
+
+## 2.4 다중 스타일 시트
+
+- CSS 파일 안에 CSS 포함하기
+- 대규모 프로젝트에 유용
+
+```html
+@import "foo.css";
+```
+
+<aside>
+⚠️ `@`가 붙는 문법 → <strong style="font-size:16px;">at-rule</strong>
+
+- `@charset`
+  - 스타일시트에서 사용하는 문자 인코딩을 지정
+  - 문서에서 가장 먼저 선언합니다.
+- `@import`
+  - 다른 스타일 시트에서 스타일 규칙을 가져옵니다.
+  - `@charset` 바로 다음에 선언되어야 합니다.
+- `@font-face`
+  - 디바이스에 없는 폰트를 다운받아 적용할 때 사용
+- `@keyframes`
+  - 애니메이션을 만들 때 사용
+- `@media`
+  - 사용자 디바이스에 따른 스타일을 분기 처리하고자 할 때 사용
+- `@supports` : 특정 CSS 속성을 브라우저가 지원하는지 확인하고 스타일을 선언하고자 할 때 사용합니다.
+</aside>
