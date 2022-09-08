@@ -4,7 +4,7 @@ lng_pair: id_What_is_this
 title: About CSS
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Soohyun Jung
+#author: Soohyun Jung
 # multiple category is not supported
 category: HTML&CSS
 # multiple tag entries are possible

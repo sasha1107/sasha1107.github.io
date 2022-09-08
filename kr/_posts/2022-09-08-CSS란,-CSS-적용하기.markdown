@@ -5,7 +5,7 @@ title: CSS란?, CSS 적용하기
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
-author: Soohyun Jung
+#author: Soohyun Jung
 # multiple category is not supported
 category: HTML&CSS
 # multiple tag entries are possible
