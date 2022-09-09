@@ -39,7 +39,7 @@ date: 2022-09-08 17:12:30 +0900
 
 ## CSS란 무엇일까?
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a08f46b-3b71-42cf-a39a-fa24318430fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080358Z&X-Amz-Expires=86400&X-Amz-Signature=33a88b0ce2d67350053b7de787bc43c3eb865df48e070385337d4ee7ca87aee8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="300px">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a08f46b-3b71-42cf-a39a-fa24318430fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220909T122440Z&X-Amz-Expires=86400&X-Amz-Signature=f112c5d93804eee1a37d7792292f3ba23f1e5fa7bc2937fc3718875865b0d7d8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="300px">
 
 Cascading Style Sheet
 
@@ -54,7 +54,7 @@ Cascading Style Sheet
 
 ## CSS의 기본 구조
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09fb4043-3afd-4d49-a2a7-50968428affd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080451Z&X-Amz-Expires=86400&X-Amz-Signature=8812d531949de343d129dc10f13c961aaed74af6c6bd0dd3b283c0fb3e4339fe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400px" alt="CSS의 기본 구조 - 선택자, 프로퍼티, 값, 선언으로 이루어져있다.">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09fb4043-3afd-4d49-a2a7-50968428affd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220909T122500Z&X-Amz-Expires=86400&X-Amz-Signature=de4cbf587e89e513e65ce1c8ff0d5d9b64f80a535da13055e0b168d2089fc062&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400px" alt="CSS의 기본 구조 - 선택자, 프로퍼티, 값, 선언으로 이루어져있다.">
 
 <hr><br>
 
