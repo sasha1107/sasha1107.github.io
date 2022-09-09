@@ -40,7 +40,7 @@ date: 2022-09-08 09:14:00 +0900
 
 ### 1.1 폼 동작 방식
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eed05f98-2c67-4a0f-b350-5a45b7681f55/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220907T160505Z&X-Amz-Expires=86400&X-Amz-Signature=1f6552a511f89a57e1e65e585d3580ae102d1652a4c00667ba0c7316e4f33bef&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eed05f98-2c67-4a0f-b350-5a45b7681f55/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220909T123052Z&X-Amz-Expires=86400&X-Amz-Signature=01fb1fae89f581c91a5c72565fff872a180c7fb5ceeb95f8278d9942c6067412&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 <aside>
 
