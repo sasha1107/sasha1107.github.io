@@ -40,7 +40,7 @@ date: 2022-09-08 17:12:30 +0900
 
 ## CSS란 무엇일까?
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a08f46b-3b71-42cf-a39a-fa24318430fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080358Z&X-Amz-Expires=86400&X-Amz-Signature=33a88b0ce2d67350053b7de787bc43c3eb865df48e070385337d4ee7ca87aee8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="300px"></img>
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a08f46b-3b71-42cf-a39a-fa24318430fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T080358Z&X-Amz-Expires=86400&X-Amz-Signature=33a88b0ce2d67350053b7de787bc43c3eb865df48e070385337d4ee7ca87aee8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="300px">
 
 Cascading Style Sheet
 
@@ -108,8 +108,7 @@ Cascading Style Sheet
 @import "foo.css";
 ```
 
-<aside>
-⚠️ `@`가 붙는 문법 → <strong style="font-size:16px;">at-rule</strong>
+### ⚠️ `@`가 붙는 문법 → **at-rule**
 
 - `@charset`
   - 스타일시트에서 사용하는 문자 인코딩을 지정
@@ -124,4 +123,3 @@ Cascading Style Sheet
 - `@media`
   - 사용자 디바이스에 따른 스타일을 분기 처리하고자 할 때 사용
 - `@supports` : 특정 CSS 속성을 브라우저가 지원하는지 확인하고 스타일을 선언하고자 할 때 사용합니다.
-</aside>

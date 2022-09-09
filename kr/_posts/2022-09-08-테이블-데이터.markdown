@@ -39,7 +39,7 @@ date: 2022-09-08 16:55:03 +0900
 ## Emmet 문법으로 테이블 만들기
 
 - 7열 4행 테이블
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d3fefb3c-d3a8-4393-81b4-ee4562ce87ca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T074820Z&X-Amz-Expires=86400&X-Amz-Signature=ff1b53826f95ea0f9e5de07782cb620a1e4ce5c4344d2e9d4ed4a2addcf059ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400px"></img>
+  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d3fefb3c-d3a8-4393-81b4-ee4562ce87ca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220908%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220908T074820Z&X-Amz-Expires=86400&X-Amz-Signature=ff1b53826f95ea0f9e5de07782cb620a1e4ce5c4344d2e9d4ed4a2addcf059ce&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="400px">
 
 ## `<table>`
 

@@ -150,7 +150,7 @@ date: 2022-09-08 09:14:00 +0900
   </head>
   <body>
     <form action="" method="">
-      <input type="text" name="이름" value="이호준" />
+      <input type="text" name="이름" value="홍길동" />
       <input type="hidden" name="나이" value="10" />
       <button type="submit">제출</button>
     </form>
