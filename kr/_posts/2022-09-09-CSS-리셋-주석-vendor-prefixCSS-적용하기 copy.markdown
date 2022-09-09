@@ -16,7 +16,7 @@ img: ":mock1.jpg"
 #comments_disable: true
 
 # publish date
-date: 2022-09-08 17:12:30 +0900
+date: 2022-09-09 21:50:00 +0900
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2022-03-03 10:04:19 +0900
@@ -129,5 +129,3 @@ transition: all 4s ease;
 - 브라우저 몇 버전까지 호환을 해줄 것인가에 대한 회의가 필요
 
 - [Autoprefixer 라이브러리](https://autoprefixer.github.io/)
-
-Autoprefixer 라이브러리
